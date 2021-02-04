@@ -29,3 +29,15 @@ Activate:
 
     setxkbmap -layout us    -variant beakl15p         # one layout; no switch
     setxkbmap -layout us,us -variant beakl15p,basic   # dual layout switching
+
+## Windows
+
+Install the [pre-built package](
+  https://github.com/sunaku/beakl15p/releases/download/windows/beakl15p.zip
+) or [build it yourself](
+  https://www.addictivetips.com/windows-tips/install-custom-keyboard-windows-10/
+) using [MSKLC version 1.4](
+  https://www.microsoft.com/en-us/download/details.aspx?id=102134
+):
+
+    "C:\Program Files (x86)\Microsoft Keyboard Layout Creator 1.4\MSKLC.exe" windows\beakl15p.klc
