@@ -17,3 +17,15 @@ Besides digits, only 3 keys have been moved: comma, period, and slash.
 See [my Ergodox EZ config](
   https://configure.ergodox-ez.com/ergodox-ez/layouts/vKBnl
 ) for a more advanced example of this layout.
+
+## Linux
+
+Install:
+
+    cat linux/usr-share-X11-xkb-symbols-us >> /usr/share/X11/xkb/symbols/us
+    echo now please restart your X session
+
+Activate:
+
+    setxkbmap -layout us    -variant beakl15p         # one layout; no switch
+    setxkbmap -layout us,us -variant beakl15p,basic   # dual layout switching
